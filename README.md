@@ -21,10 +21,10 @@ These functions are implemented in **separate assembly files** and called from C
 
 Declare these functions in `overflow.c`:
 
-\`\`\`c
+```c
 void check_unsigned(uint64_t a, uint64_t b);
 void check_signed(int64_t a, int64_t b);
-\`\`\`
+```
 
 Each assembly function must be implemented in its **own `.S` file**.
 
